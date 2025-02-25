@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct Neat_on_the_RocksApp: App {
+struct NeatOnTheRocksApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                SplashScreen()
+            }
         }
     }
 }
