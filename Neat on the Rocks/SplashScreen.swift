@@ -18,11 +18,16 @@ struct SplashScreen: View {
                 Color.black.edgesIgnoringSafeArea(.all)
                 
                 VStack {
-                    Image(systemName: "flame.fill") // Replace with actual app logo
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 100, height: 100)
-                        .foregroundColor(.orange)
+                    if let uiImage = UIImage(named: "AppLogo") {
+                        Image(uiImage: uiImage)
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 100, height: 100)
+                    } else {
+                        Text("Image Not Found")
+                            .foregroundColor(.red)
+                            .bold()
+                    }
                     
                     Text("Neat on the Rocks")
                         .font(.largeTitle)
