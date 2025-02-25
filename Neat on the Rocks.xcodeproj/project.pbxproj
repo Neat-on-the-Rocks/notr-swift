@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1896F4EE2D6E765200642475 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1896F4ED2D6E761D00642475 /* .gitignore */; };
+		1896F4F02D6E76FF00642475 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1896F4EF2D6E76F900642475 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		1896F4BB2D6E6FED00642475 /* Neat on the RocksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Neat on the RocksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1896F4C52D6E6FED00642475 /* Neat on the RocksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Neat on the RocksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1896F4ED2D6E761D00642475 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		1896F4EF2D6E76F900642475 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -80,6 +82,7 @@
 		1896F4A12D6E6FEC00642475 = {
 			isa = PBXGroup;
 			children = (
+				1896F4EF2D6E76F900642475 /* README.md */,
 				1896F4ED2D6E761D00642475 /* .gitignore */,
 				1896F4AC2D6E6FEC00642475 /* Neat on the Rocks */,
 				1896F4BE2D6E6FED00642475 /* Neat on the RocksTests */,
@@ -219,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1896F4EE2D6E765200642475 /* .gitignore in Resources */,
+				1896F4F02D6E76FF00642475 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
